@@ -1,19 +1,102 @@
 header {
-  float:left;
-  width:100%;
-  font-family:'Open Sans', sans-serif;
+  /*float:left;*/
+  margin: auto;
+  width:80%;
   padding:2em 4em;
-  background:#14b5d1;
+  color:#fff;
   height:calc(100% - 3em);
-
-a:link, a:visited {
+  background-color: #14b5d1;
+}
+h1{
+    font-size: 2em;
+    font-family: 'Open Sans', sans-serif;
+}
+a#a1:link, a#a1:visited {
     display: block;
     width: 120px;
     font-weight: bold;
     color: #FFFFFF;
-    background-color: #98bf21;
     text-align: center;
     padding: 4px;
     text-decoration: none;
     text-transform: uppercase;
+} 
+a#a1:hover{
+  background-color: #12A3BC ;
+}
+body {
+  background: #212121
+}
+div#rightCircle {
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
+  float: right; 
+} 
+div#leftCircle{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 99em;
+  border: 5px solid #eee;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
+  float: left;
+}
+.content {
+  float:left;
+  width:70%;
+  margin:0 15%;
+  padding:2em 0;
+}
+#columns {
+  -webkit-column-span: none;
+  column-span: none;
+}
+
+.newspaper {
+    position: fixed;
+    top: 400px;
+    left: 100px;
+    padding-right: 60px;
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+    -webkit-column-gap: 160px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 160px; /* Firefox */
+    column-gap: 160px;
+    -webkit-column-rule-style: solid; /* Chrome, Safari, Opera */
+    -moz-column-rule-style: solid; /* Firefox */
+    column-rule-style: solid;
+    -webkit-column-rule-width: 1px; /* Chrome, Safari, Opera */
+    -moz-column-rule-width: 1px; /* Firefox */
+    column-rule-width: 1px;
+    -webkit-column-rule-color: lightblue ; /* Chrome, Safari, Opera */
+    -moz-column-rule-color: lightblue; /* Firefox */
+    column-rule-color: lightblue;
+    webkit-column-width: 550px; /* Chrome, Safari, Opera */
+    -moz-column-width: 250px; /* Firefox */
+    column-width: 550px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff
+
+}
+p{
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+  font-size: 1.25em;
+}
+table{
+  table-layout: fixed;
+  width: 100%;
+}
+td{
+  padding: 1em;
+  vertical-align: top;
 }
