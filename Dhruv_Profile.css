@@ -70,38 +70,20 @@ header ul li:hover ul {
 body {
   background: #212121
 }
-h1#leftHeader{
-  float: left;
-}
-h1#rightHeader{
-  right: -269px;
-  position: relative;
-}
-div#rightCircle {
+
+div#profileCircle{
   display: flex;
-  width: 150px;
-  height: 150px;
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 99em;
-  border: 5px solid #eee;
-  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3); 
- position: relative;
-  left: -200px;
-  float: right;
-} 
-div#leftCircle{
-  display: flex;
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 99em;
   border: 5px solid #eee;
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
-  position: relative;
-  left: 150px;
+  position: absolute;
   float: left;
+  top: 200px;
+  left: 200px;
 }
 .content {
   float:left;
@@ -109,17 +91,16 @@ div#leftCircle{
   margin:0 15%;
   padding:2em 0;
 }
+div#rightContent{
+  float: right;
+  padding-right: 50%;
+  position: relative;
+  top: 100px;
+}
 
 p{
   font-family: 'Open Sans', sans-serif;
   color: #fff;
   font-size: 1.25em;
 }
-table{
-  table-layout: fixed;
-  width: 100%;
-}
-td{
-  padding: 1em;
-  vertical-align: top;
 }

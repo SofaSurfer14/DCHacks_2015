@@ -123,3 +123,8 @@ div#content{
 .bounce {
   @include animation(bounce 2s infinite);
 }
+a:link, a:visited {
+    color:#FFF;
+    text-decoration:none;
+    text-transform:none;
+}
