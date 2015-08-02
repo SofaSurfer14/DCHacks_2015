@@ -1,0 +1,19 @@
+header {
+  float:left;
+  width:100%;
+  font-family:'Open Sans', sans-serif;
+  padding:2em 4em;
+  background:#14b5d1;
+  height:calc(100% - 3em);
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
